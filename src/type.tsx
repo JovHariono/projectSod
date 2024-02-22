@@ -11,3 +11,8 @@ export interface BrandType {
   tiktok: string;
   youtube: string;
 }
+
+export interface Paragon {
+  id: Number;
+  kata: string;
+}

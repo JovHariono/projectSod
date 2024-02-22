@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "lint": "next lint"
+    "start": "NODE_ENV=production concurrently \"next start\" \"json-server --watch db.json --port 3001\"",
+    "lint": "next lint",
+    "json-server": "json-server ./data/db.json --port 3001"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -17,12 +18,15 @@
     "@types/react": "18.2.12",
     "@types/react-dom": "18.2.5",
     "@types/react-scroll": "^1.8.7",
+    "axios": "^1.6.7",
+    "concurrently": "^8.2.2",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.5",
     "hamburger-react": "^2.5.0",
     "install": "^0.13.0",
     "intersection-observer": "^0.12.2",
-    "next": "13.4.5",
+    "json-server": "^1.0.0-alpha.23",
+    "next": "^13.5.6",
     "react": "18.2.0",
     "react-burger-menu": "^3.0.9",
     "react-countup": "^6.4.2",
