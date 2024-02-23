@@ -11,20 +11,34 @@ const FormParagon: React.FunctionComponent<IFormParagonProps> = (props) => {
 
     const router = useRouter()
 
-    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         
-        axios
-            .post("http://localhost:3001/data", {kata}, {
+        try {
+            // Fetch the last used ID from the server
+            const response = await axios.get("http://localhost:3001/data?_sort=id&_order=desc&_limit=1");
+            const lastItem = response.data[0];
+            const lastUsedId = lastItem ? lastItem.id : 0;
+
+            const newId = lastUsedId + 1;
+
+            const postData = {
+                id: newId,
+                kata,
+            };
+
+            const postResponse = await axios.post("http://localhost:3001/data", postData, {
                 headers: { "Content-Type": "application/json" },
-            })
-            .then((res) => {
-                if(res.status === 201){
-                    setIsPending(true)
-                    router.push("/paragonlist")
-                }
-            })
-            .catch((err) => console.log(err))
+            });
+
+            if (postResponse.status === 201) {
+                router.push("/paragonlist");
+            }
+        } catch (error) {
+            console.error(error);
+        } finally {
+            setIsPending(true);
+        }
     }
 
   return (
