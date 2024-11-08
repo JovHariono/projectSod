@@ -77,11 +77,11 @@ const Navbar: React.FunctionComponent<INavbarProps> = (props) => {
           </Link>
           <div className="navvar-content">
             <ul className="ul-bar">
-              {/* <li className="li-bar">
+              <li className="li-bar">
                 <Link className="link" href="/" color="white">
                   HOME
                 </Link>
-              </li> */}
+              </li>
               <li className="li-bar">
                 <Link
                   className="linkabout"
