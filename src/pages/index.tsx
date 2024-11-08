@@ -81,6 +81,22 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
 
   const Videos = [
     {
+      link: "",
+      judul: "All Time Low",
+    },
+    {
+      link: "",
+      judul: "Waku Waku VOL 3",
+    },
+    {
+      link: "",
+      judul: "KUKSH",
+    },
+    {
+      link: "",
+      judul: "SOD VOL 06",
+    },
+    {
       link: "https://www.youtube.com/embed/bXZDRqvWNTA?si=7_LlxNVf6XugYznY",
       judul: "Waku Waku VOL 2",
     },
@@ -102,7 +118,7 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
     },
     {
       link: "https://www.youtube.com/embed/zbAcvSQ1TDU?si=HKXxTmG3GushQ96R",
-      judul: "SOD VOL 5",
+      judul: "SOD VOL 05",
     },
     {
       link: "https://www.youtube.com/embed/CBDYT21iiPE",
@@ -118,15 +134,15 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
     },
     {
       link: "https://www.youtube.com/embed/xtT-8Y5fZg4",
-      judul: "SOD VOL 4",
+      judul: "SOD VOL 04",
     },
     {
       link: "https://www.youtube.com/embed/MqMk6GsGeFI",
-      judul: "SOD VOL 3",
+      judul: "SOD VOL 03",
     },
     {
       link: "https://www.youtube.com/embed/t7_RI8c3cBw",
-      judul: "SOD VOL 1",
+      judul: "SOD VOL 01",
     },
   ];
 
