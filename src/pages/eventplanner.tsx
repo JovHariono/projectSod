@@ -41,6 +41,30 @@ import Wardah5 from "../../public/assets/W5.jpeg";
 import Wardah6 from "../../public/assets/W6.jpeg";
 import Wardah7 from "../../public/assets/W7.jpeg";
 import Wardah8 from "../../public/assets/W8.jpeg";
+import ep5 from "../../public/assets/EP5.png";
+import par1 from "../../public/assets/Par1.jpg";
+import par2 from "../../public/assets/Par2.jpg";
+import par3 from "../../public/assets/Par3.jpg";
+import par4 from "../../public/assets/Par4.jpg";
+import par5 from "../../public/assets/Par5.jpg";
+import par6 from "../../public/assets/Par6.jpg";
+import par7 from "../../public/assets/Par7.jpg";
+import par8 from "../../public/assets/Par8.jpg";
+import par9 from "../../public/assets/Par9.jpg";
+import ep6 from "../../public/assets/EP6.png";
+import nov1 from "../../public/assets/Nov1.jpg";
+import nov2 from "../../public/assets/Nov2.jpg";
+import nov3 from "../../public/assets/Nov3.jpg";
+import nov4 from "../../public/assets/Nov4.jpg";
+import nov5 from "../../public/assets/Nov5.jpg";
+import nov6 from "../../public/assets/Nov6.jpg";
+import nov7 from "../../public/assets/Nov7.jpg";
+import nov8 from "../../public/assets/Nov8.jpg";
+import nov9 from "../../public/assets/Nov9.jpg";
+import nov10 from "../../public/assets/Nov10.jpg";
+import nov11 from "../../public/assets/Nov11.jpg";
+import nov12 from "../../public/assets/Nov12.jpg";
+
 
 
 import Footer from "./components/cards/productCards/footer/Footer";
@@ -68,10 +92,46 @@ const EventPlanner: React.FunctionComponent<IEventPlannerProps> = (props) => {
 
   const Brands: BrandType[] = [
     {
-      image: ep1,
-      judul: "Prudential Pruactive Family",
-      imagePopup: [pru1, pru2, pru3, pru4, pru5, pru6, pru7],
-      judulPopUp: "Prudential Pruactive Family",
+      image: ep6,
+      judul: "Novoclub Welcoming Batch 3",
+      imagePopup: [nov1, nov2, nov3, nov4, nov5, nov6, nov7, nov8, nov9, nov10, nov11, nov12],
+      judulPopUp: "Novoclub Welcoming Batch 3",
+      deskripsiPopUp:
+        "",
+      instagram: "",
+      twitter: "",
+      tiktok: "",
+      youtube: "",
+    },    
+    {
+      image: ep5,
+      judul: "Paragon 39th Anniversary",
+      imagePopup: [par1, par2, par3, par4, par5, par6, par7, par8, par9],
+      judulPopUp: "Paragon 39th Anniversary",
+      deskripsiPopUp:
+        "",
+      instagram: "",
+      twitter: "",
+      tiktok: "",
+      youtube: "",
+    },
+    {
+      image: ep4,
+      judul: "Wardah Glasting Liquid Lip",
+      imagePopup: [Wardah1, Wardah2, Wardah3, Wardah4, Wardah5, Wardah6, Wardah7, Wardah8],
+      judulPopUp: "Wardah Glasting Liquid Lip",
+      deskripsiPopUp:
+        "",
+      instagram: "",
+      twitter: "",
+      tiktok: "",
+      youtube: "",
+    }, 
+    {
+      image: ep3,
+      judul: "Dyson Ceramic Pop Launch",
+      imagePopup: [dyson1, dyson2, dyson3, dyson4, dyson5, dyson6, dyson7, dyson8],
+      judulPopUp: "Dyson Ceramic Pop Launch",
       deskripsiPopUp:
         "",
       instagram: "",
@@ -92,10 +152,10 @@ const EventPlanner: React.FunctionComponent<IEventPlannerProps> = (props) => {
       youtube: "",
     },
     {
-      image: ep3,
-      judul: "Dyson Ceramic Pop Launch",
-      imagePopup: [dyson1, dyson2, dyson3, dyson4, dyson5, dyson6, dyson7, dyson8],
-      judulPopUp: "Dyson Ceramic Pop Launch",
+      image: ep1,
+      judul: "Prudential Pruactive Family",
+      imagePopup: [pru1, pru2, pru3, pru4, pru5, pru6, pru7],
+      judulPopUp: "Prudential Pruactive Family",
       deskripsiPopUp:
         "",
       instagram: "",
@@ -103,18 +163,6 @@ const EventPlanner: React.FunctionComponent<IEventPlannerProps> = (props) => {
       tiktok: "",
       youtube: "",
     },
-    {
-      image: ep4,
-      judul: "Wardah Glasting Liquid Lip",
-      imagePopup: [Wardah1, Wardah2, Wardah3, Wardah4, Wardah5, Wardah6, Wardah7, Wardah8],
-      judulPopUp: "Wardah Glasting Liquid Lip",
-      deskripsiPopUp:
-        "",
-      instagram: "",
-      twitter: "",
-      tiktok: "",
-      youtube: "",
-    },    
   ];
 
   const togglePop = (brand: BrandType) => {
@@ -138,11 +186,11 @@ const EventPlanner: React.FunctionComponent<IEventPlannerProps> = (props) => {
           <h1>EVENT PLANNER</h1>
           <div className="seperator"></div>
         </div>
-        <div className="contentOurBrand2">
+        <div className="contentOurBrand">
           {Brands.map((brand, index) => {
             return (
               <div
-                className="containerBrand2"
+                className="containerBrand"
                 onClick={() => togglePop(brand)}
                 key={index}
               >

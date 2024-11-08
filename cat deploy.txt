@@ -1,0 +1,12 @@
+.next
+public
+src
+.eslintrc.json
+next.config.js
+next.env.d.ts
+package.json
+package-lock.json
+ser.js
+tsconfig.json
+
+deploy file, unzip -> bikin node.js -> app root install

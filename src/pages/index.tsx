@@ -11,10 +11,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import Header9 from "../../public/assets/HeaderU9.png"
-import Header10 from "../../public/assets/HeaderU10.png"
-import HeaderM9 from "../../public/assets/HeaderM9.png";
-import HeaderM10 from "../../public/assets/HeaderM10.png";
+import Header1 from "../../public/assets/Header1.png";
+
+import HeaderM1 from "../../public/assets/HeaderM1.png";
+
 import Footer from "./components/cards/productCards/footer/Footer";
 import Video from "./components/cards/productCards/Video";
 
@@ -48,57 +48,17 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
   }, []);
 
   const Homeimgs = [
-    // {
-    //   link: "",
-    //   gambar: Header5,
-    // },
-    // {
-    //   link: "",
-    //   gambar: Header6,
-    // },
-    // {
-    //   link: "",
-    //   gambar: Header7,
-    // },
-    // {
-    //   link: "",
-    //   gambar: Header8,
-    // },
     {
-      link: "https://widget.loket.com/widget/yho1uzg57mjhrpj2p",
-      gambar: Header9
+      // link: "",
+      // gambar: Header1,
     },
-    // {
-    //   link: "",
-    //   gambar: Header10
-    // },
   ];
 
   const HomeimgMs = [
-    // {
-    //   link: "",
-    //   gambar: HeaderM5,
-    // },
-    // {
-    //   link: "",
-    //   gambar: HeaderM6,
-    // },
-    // {
-    //   link: "",
-    //   gambar: HeaderM7,
-    // },
-    // {
-    //   link: "",
-    //   gambar: HeaderM8,
-    // },
     {
-      link: "https://widget.loket.com/widget/yho1uzg57mjhrpj2p",
-      gambar: HeaderM9,
+      // link: "",
+      // gambar: HeaderM1,
     },
-    // {
-    //   link: "",
-    //   gambar: HeaderM10,
-    // },
   ];
 
   const Values = [
@@ -209,7 +169,7 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
           className="mySwiper"
           speed={2000}
         >
-          {isMobile ? (
+          {/* {isMobile ? (
             <div>
               {HomeimgMs.map((homeimg, index) => {
                 return (
@@ -229,7 +189,7 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
                 );
               })}
             </div>
-          )}
+          )} */}
         </Swiper>
       </div>
       <div className="aboutUs" id="about-us">

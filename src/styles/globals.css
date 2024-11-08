@@ -626,8 +626,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
   flex-wrap: wrap;
   gap: 4rem 12rem;
   justify-content: center;
-  padding-left: 15rem;
-  padding-right: 15rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   height: auto;
@@ -643,7 +643,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   justify-content: center;
   align-items: center;
   height: auto;
-  width: 30%;
+  width: 20%;
   background-color: #e5dcc8;
   padding-bottom: 1rem;
   animation-duration: 1.8s;

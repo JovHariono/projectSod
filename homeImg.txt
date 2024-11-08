@@ -1,0 +1,7 @@
+{HomeimgMs.map((homeimg, index) => {
+                return (
+                  <SwiperSlide key={index}>
+                    <Homeimg gambar={homeimg.gambar} link={homeimg.link} />
+                  </SwiperSlide>
+                );
+              })}
