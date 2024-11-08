@@ -1365,3 +1365,49 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   
 }
+
+
+.scroll {
+  white-space: nowrap;
+  margin: 0 20px;
+}
+
+.scroll div {
+  display: flex;
+  gap: 2em;
+}
+
+.scroll p {
+  font-size: 5em;
+  color: black;
+  font-weight: bold;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  line-height: 10px;
+}
+
+.RightToLeft {
+  animation: RightToLeft 20s infinite linear;
+}
+
+@keyframes  RightToLeft {
+  from {
+    transform: translateX(150%);
+  }
+  to {
+    transform: translateX(-150%);
+  }
+}
+
+.LeftToRight {
+  animation: LeftToRight 20s infinite linear;
+}
+
+@keyframes  LeftToRight {
+  from {
+    transform: translateX(-150%);
+  }
+  to {
+    transform: translateX(150%);
+  }
+}
