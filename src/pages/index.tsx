@@ -81,7 +81,7 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
 
   const Videos = [
     {
-      link: "",
+      link: "https://www.youtube.com/embed/KzjWTJ2fUS8?si=0uYN2sn4K1LARKf1",
       judul: "All Time Low",
     },
     {
