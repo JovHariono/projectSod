@@ -85,7 +85,7 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
       judul: "All Time Low",
     },
     {
-      link: "",
+      link: "https://www.youtube.com/embed/yUaJBKnRGiY?si=OFhaClYfj6KHjKqM",
       judul: "Waku Waku VOL 3",
     },
     {
