@@ -158,7 +158,7 @@ const EventPlanner: React.FunctionComponent<IEventPlannerProps> = (props) => {
     },
     {
       image: ep11,
-      judul: "Panasonic KW 2024",
+      judul: "Panasonic KWN 2024",
       imagePopup: [pana1, pana2, pana3, pana4, pana5, pana6, pana7],
       judulPopUp: "Panasonic KW 2024",
       deskripsiPopUp: "",
