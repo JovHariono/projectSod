@@ -1171,6 +1171,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 @media only screen and (max-width: 780px) {
+  .containerVideo {
+    width: 48%;
+  }
+
+  .judulVideo {
+    width: 70%;
+  }
+
   .subHeader2 {
     height: 15rem;
   }
@@ -1196,7 +1204,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   .containerBrand {
-    width: 26%;
+    width: 29%;
+  }
+
+  .contentOurBrand {
+    padding-left: 2.7rem;
+    padding-right: 1rem;
+    gap: 2rem;
   }
 
   .containerBrand2 {
@@ -1214,6 +1228,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 @media only screen and (max-width: 760px) {
+  .contentOurBrand {
+    padding-left: 1.8rem;
+  }
+
+  .containerBrand {
+    width: 30%;    
+  }
+
   .partnerContent {
     padding-left: 2rem;
     padding-right: 1rem;
