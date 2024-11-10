@@ -81,20 +81,20 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
 
   const Videos = [
     {
-      link: "https://www.youtube.com/embed/KzjWTJ2fUS8?si=0uYN2sn4K1LARKf1",
-      judul: "All Time Low",
-    },
-    {
-      link: "https://www.youtube.com/embed/yUaJBKnRGiY?si=OFhaClYfj6KHjKqM",
-      judul: "Waku Waku VOL 3",
+      link: "https://www.youtube.com/embed/ulXiqzHkRMs?si=lcf69w5iPYlvw5u3",
+      judul: "SOD VOL 06",
     },
     {
       link: "https://www.youtube.com/embed/r4Qd8WMKUO4?si=872Cnl65skxP_JpJ",
       judul: "KUKSH",
     },
     {
-      link: "",
-      judul: "SOD VOL 06",
+      link: "https://www.youtube.com/embed/yUaJBKnRGiY?si=OFhaClYfj6KHjKqM",
+      judul: "Waku Waku VOL 3",
+    },
+    {
+      link: "https://www.youtube.com/embed/KzjWTJ2fUS8?si=0uYN2sn4K1LARKf1",
+      judul: "All Time Low",
     },
     {
       link: "https://www.youtube.com/embed/bXZDRqvWNTA?si=7_LlxNVf6XugYznY",

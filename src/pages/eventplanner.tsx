@@ -105,6 +105,22 @@ import dhl4 from "../../public/assets/dhl4.png";
 import dhl5 from "../../public/assets/dhl5.png";
 import dhl6 from "../../public/assets/dhl6.png";
 
+import ep11 from "../../public/assets/EP11.png";
+import pana1 from "../../public/assets/pana1.png";
+import pana2 from "../../public/assets/pana2.png";
+import pana3 from "../../public/assets/pana3.png";
+import pana4 from "../../public/assets/pana4.png";
+import pana5 from "../../public/assets/pana5.png";
+import pana6 from "../../public/assets/pana6.png";
+import pana7 from "../../public/assets/pana7.png";
+
+import ep12 from "../../public/assets/EP12.png";
+import surya1 from "../../public/assets/surya1.png";
+import surya2 from "../../public/assets/surya2.png";
+import surya3 from "../../public/assets/surya3.png";
+import surya4 from "../../public/assets/surya4.png";
+import surya5 from "../../public/assets/surya5.png";
+
 import Footer from "./components/cards/productCards/footer/Footer";
 import { BrandType } from "../type";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -129,6 +145,28 @@ const EventPlanner: React.FunctionComponent<IEventPlannerProps> = (props) => {
   const [isYoutube, setYoutube] = useState("");
 
   const Brands: BrandType[] = [
+    {
+      image: ep12,
+      judul: "Suryanation Manisnya Nusantara",
+      imagePopup: [surya1, surya2, surya3, surya4, surya5],
+      judulPopUp: "Suryanation Manisnya Nusantara",
+      deskripsiPopUp: "",
+      instagram: "",
+      twitter: "",
+      tiktok: "",
+      youtube: "",
+    },
+    {
+      image: ep11,
+      judul: "Panasonic KW 2024",
+      imagePopup: [pana1, pana2, pana3, pana4, pana5, pana6, pana7],
+      judulPopUp: "Panasonic KW 2024",
+      deskripsiPopUp: "",
+      instagram: "",
+      twitter: "",
+      tiktok: "",
+      youtube: "",
+    },
     {
       image: ep10,
       judul: "DHL EV",

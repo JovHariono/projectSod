@@ -42,6 +42,9 @@ const Navbar: React.FunctionComponent<INavbarProps> = (props) => {
               {/* <Link id="home" className="menu-item" href="/">
                 HOME
               </Link> */}
+              <Link className="menu-item" href="/#about-us" color="white">
+                ABOUT US
+              </Link>
               <Link className="menu-item" href="/ourbrand">
                 OUR BRAND
               </Link>
@@ -77,17 +80,13 @@ const Navbar: React.FunctionComponent<INavbarProps> = (props) => {
           </Link>
           <div className="navvar-content">
             <ul className="ul-bar">
-              <li className="li-bar">
+              {/* <li className="li-bar">
                 <Link className="link" href="/" color="white">
                   HOME
                 </Link>
-              </li>
+              </li> */}
               <li className="li-bar">
-                <Link
-                  className="linkabout"
-                  href="/#about-us"
-                  color="white"
-                >
+                <Link className="linkabout" href="/#about-us" color="white">
                   ABOUT US
                 </Link>
               </li>
