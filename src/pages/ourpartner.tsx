@@ -28,7 +28,7 @@ import snc from "../../public/assets/PartnerS/23-snc.png";
 import ats from "../../public/assets/PartnerS/24-ats.png";
 import ibis from "../../public/assets/PartnerS/26-ibis.png";
 import alana from "../../public/assets/PartnerS/27-alana.png";
-import cedea from "../../public/assets/PartnerS/28-cedea.jpg";
+import cedea from "../../public/assets/PartnerS/28-cedea.png";
 import tsh from "../../public/assets/PartnerS/29-tsh.png";
 import hic from "../../public/assets/PartnerS/30-hic.jpg";
 import jp from "../../public/assets/PartnerS/31-jp.jpg";
@@ -254,11 +254,11 @@ const OurPartner: React.FunctionComponent<IOurPartnerProps> = (props) => {
       gambar: PartnerFnB8,
     },
     {
-      judul: "Sari Roti",
+      judul: "Madu TJ",
       gambar: PartnerFnB9,
     },
     {
-      judul: "Sari Roti",
+      judul: "Kapal Api",
       gambar: PartnerFnB10,
     },
     {

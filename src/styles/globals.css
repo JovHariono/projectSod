@@ -1395,6 +1395,25 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 }
 
+@media screen and (max-width: 400px) {
+  .judulVideo {
+    width: 85%;
+  }
+
+  .judulBrand {
+    font-size: 14px;
+  }
+
+  .containerBrand {
+    width: 90%;
+  }
+
+  .contentOurBrand {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
 .scroll {
   white-space: nowrap;
   margin: 0 20px;
