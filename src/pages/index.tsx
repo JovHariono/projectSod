@@ -1,19 +1,18 @@
 import * as React from "react";
 import Navbar from "./components/header/navbar";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 
 import Value from "./components/cards/productCards/Value";
 import Homeimg from "./components/cards/productCards/Homeimg";
+
+import Header2 from "../../public/assets/Header2.png"
+import HeaderM2 from "../../public/assets/HeaderM2.png"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode, Navigation, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
-import Header1 from "../../public/assets/Header1.png";
-
-import HeaderM1 from "../../public/assets/HeaderM1.png";
 
 import Footer from "./components/cards/productCards/footer/Footer";
 import Video from "./components/cards/productCards/Video";
@@ -49,15 +48,15 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
 
   const Homeimgs = [
     {
-      // link: "",
-      // gambar: Header1,
+      link: "https://theneighbourhoodjakarta.com/",
+      gambar: Header2,
     },
   ];
 
   const HomeimgMs = [
     {
-      // link: "",
-      // gambar: HeaderM1,
+      link: "https://theneighbourhoodjakarta.com/",
+      gambar: HeaderM2,
     },
   ];
 
@@ -65,7 +64,7 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
     {
       gambar: faUsers,
       judul: "CUSTOMER ORIENTED",
-      text: `We are truly committed to make customers our top priority`,
+      text: `We are truly committed to make customers \n our top priority`,
     },
     {
       gambar: faHandHoldingHeart,
@@ -78,8 +77,11 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
       text: `Always giving best efforts \n to improve our products, services, or processes`,
     },
   ];
-
   const Videos = [
+    {
+      link: "https://www.youtube.com/embed/vazSZuEzKzs?si=GqHL43JwdHOQ7YuQ",
+      judul: "KUKSH Lagi",
+    },
     {
       link: "https://www.youtube.com/embed/ulXiqzHkRMs?si=lcf69w5iPYlvw5u3",
       judul: "SOD VOL 06",
@@ -130,7 +132,7 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
     },
     {
       link: "https://www.youtube.com/embed/QdErAvz32rE",
-      judul: "Misellia Penyendiri Showcase",
+      judul: "Penyendiri Showcase",
     },
     {
       link: "https://www.youtube.com/embed/xtT-8Y5fZg4",
@@ -163,7 +165,7 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
   return (
     <div className="container">
       <Head>
-        <title>Serikat Orang Dalam - sod.group</title>
+        <title>Saudagar Oke Dermawan - sod.group</title>
         <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
       </Head>
 
@@ -185,7 +187,7 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
           className="mySwiper"
           speed={2000}
         >
-          {/* {isMobile ? (
+          {isMobile ? (
             <div>
               {HomeimgMs.map((homeimg, index) => {
                 return (
@@ -205,7 +207,7 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
                 );
               })}
             </div>
-          )} */}
+          )}
         </Swiper>
       </div>
       <div className="aboutUs" id="about-us">

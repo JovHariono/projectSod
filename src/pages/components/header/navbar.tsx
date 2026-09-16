@@ -32,7 +32,7 @@ const Navbar: React.FunctionComponent<INavbarProps> = (props) => {
   return (
     <div className="containerNav">
       <Head>
-        <title>Serikat Orang Dalam - sod.group</title>
+        <title>Saudagar Oke Dermawan - sod.group</title>
         <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
       </Head>
       {isMobile ? (
@@ -45,17 +45,17 @@ const Navbar: React.FunctionComponent<INavbarProps> = (props) => {
               <Link className="menu-item" href="/#about-us" color="white">
                 ABOUT US
               </Link>
-              <Link className="menu-item" href="/ourbrand">
-                OUR BRAND
+              <Link className="menu-item" href="/ourbrands">
+                OUR BRANDS
               </Link>
-              <Link className="menu-item" href="/eventplanner">
-                EVENT PLANNER
+              <Link className="menu-item" href="/ontheground">
+                ON THE GROUND
               </Link>
               <Link className="menu-item" href="/pastevent">
                 PAST EVENT
               </Link>
               <Link className="menu-item" href="/ourpartner">
-                OUR PARTNER
+                PREVIOUS PARTNER
               </Link>
             </Menu>
           </div>
@@ -91,13 +91,13 @@ const Navbar: React.FunctionComponent<INavbarProps> = (props) => {
                 </Link>
               </li>
               <li className="li-bar">
-                <Link className="link" href="/ourbrand" color="white">
-                  OUR BRAND
+                <Link className="link" href="/ourbrands" color="white">
+                  OUR BRANDS
                 </Link>
               </li>
               <li className="li-bar">
-                <Link className="link" href="/eventplanner" color="white">
-                  EVENT PLANNER
+                <Link className="link" href="/ontheground" color="white">
+                  ON THE GROUND
                 </Link>
               </li>
               <li className="li-bar">
@@ -107,7 +107,7 @@ const Navbar: React.FunctionComponent<INavbarProps> = (props) => {
               </li>
               <li className="li-bar">
                 <Link className="link" href="/ourpartner">
-                  OUR PARTNER
+                  PREVIOUS PARTNER
                 </Link>
               </li>
             </ul>
